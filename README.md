@@ -1,4 +1,4 @@
-# Broadcast all txs from IRI to its neighbors
+# Broadcast all txs from IRI to its neighbor
 
 This is a tool to migrate IRI databasae to hornet. 
 
