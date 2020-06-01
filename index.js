@@ -25,7 +25,7 @@ while (tvm != null) {
     var neighborList = neighborRouter.getConnectedNeighbors().values().stream().collect(Collectors.toList());
     if (neighborList.size() == 0) {
         //neighbor is not connected. Wait a bit
-        System.out.println("Waiting for neighbor");
+        log.info("Waiting for neighbor");
         Thread.sleep(SLEEP_SECS * 1000);
         continue;
     }
