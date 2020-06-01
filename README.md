@@ -19,3 +19,8 @@ You should see logs such as
 05/26 11:34:01.097 [Thread-2] INFO  DB-Migration:38 - Gossiping tx 300 of 26751. Time elapsed: 0 Days 0 Hours 0 Minutes 0 Seconds
 05/26 11:34:01.110 [Thread-2] INFO  DB-Migration:38 - Gossiping tx 400 of 26751. Time elapsed: 0 Days 0 Hours 0 Minutes 0 Seconds
 ```
+
+N.B
+
+ - There is currently no way to pause and resume this stuf - Is it necessary?
+ - If the node restarts with this ixi in place, it'll start all over again.
