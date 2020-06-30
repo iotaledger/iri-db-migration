@@ -8,6 +8,8 @@ N.B `Hornet` will not accept transactions of which their timestamp is older than
 ## Running
 Copy thie script into your iris' `/ixi` directory such that you have `ixi/migration.ixi/{index.js, package.json}.`.  Your node may be running at this time, and it will hot-load the script. After you've looaded the script, and with a running iRI node, run the following command to start the migration.
 
+N.B **Change these paramters below to suit your needs**
+
 ```
 curl http://127.0.0.1:14265 -X POST \
 -H 'X-IOTA-API-Version: 1' \
